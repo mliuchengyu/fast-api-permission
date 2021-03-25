@@ -10,7 +10,7 @@ fast-api-permission 为laravel 框架服务开发工具，基于 fast-api-permis
     - [Laravel](#laravel)
         - [安装 fast-api/permission](#安装-fast-api/permission-开发版本)
         - [配置laravel .env 文件](#配置laravel-env-文件)
-        - [Connecting to AWS Elasticsearch Service](#connecting-to-aws-elasticsearch-service)
+        - [配置 auth](#配置-auth)
 - [使用](#usage)
 - [控制台命令](#console-commands)
 - [bug、建议、贡献和支持](#bugs-suggestions-contributions-and-support)
@@ -57,23 +57,7 @@ DB_PASSWORD=root
 API_PREFIX=api
 ```
 
-Documentation
---
-PHP开发技术交流（QQ群 368868750）
-
-[![PHP开发技术交流 (SDK)](http://pub.idqqimg.com/wpa/images/group.png)](https://qm.qq.com/cgi-bin/qm/qr?k=rfRumoZ0fxUN4TdshfjkxiHximnHVSzb&jump_from=webapi)
-
-> fast-api-permission 是基于laravel 7.x 封装，在做项目开发前，必需先阅读laravel官方文档。
->* laravel 官方文档：https://learnku.com/docs/laravel/7.x/releases/7444
-
-Repository
---
-fast-api-permission 为开源项目，允许把它用于任何地方，不受任何约束，欢迎 fork 项目。
->* GitHub 托管地址：https://github.com/fast-php/fast-api-permission
->* packagist 托管地址：https://packagist.org/packages/fast-api/permission
-
-
-* 配置laravel config/auth.php 参数
+#### laravel config/auth.php 参数
 ```php
 // Authentication Defaults
 'defaults' => [
@@ -116,6 +100,22 @@ fast-api-permission 为开源项目，允许把它用于任何地方，不受任
 
 请参阅[CONTRIBUTING.md](CONTRIBUTING.md)了解如何贡献更改。
 
+
+Documentation
+--
+PHP开发技术交流（QQ群 368868750）
+
+[![PHP开发技术交流 (SDK)](http://pub.idqqimg.com/wpa/images/group.png)](https://qm.qq.com/cgi-bin/qm/qr?k=rfRumoZ0fxUN4TdshfjkxiHximnHVSzb&jump_from=webapi)
+
+> fast-api-permission 是基于laravel 7.x 封装，在做项目开发前，必需先阅读laravel官方文档。
+>* laravel 官方文档：https://learnku.com/docs/laravel/7.x/releases/7444
+
+Repository
+--
+fast-api-permission 为开源项目，允许把它用于任何地方，不受任何约束，欢迎 fork 项目。
+>* GitHub 托管地址：https://github.com/fast-php/fast-api-permission
+>* packagist 托管地址：https://packagist.org/packages/fast-api/permission
+> 
 ## Copyright and License
 
 [fast-api/permission](https://github.com/fast-php/fast-api-permission)
