@@ -8,7 +8,7 @@ fast-api-permission 为laravel 框架服务开发工具，基于 fast-api-permis
 
 - [安装与配置](#安装与配置)
     - [Laravel](#laravel)
-        - [安装 fast-api/permission](#安装-fast-api/permission-开发版本)
+        - [安装 fast-api/permission](#安装-fast-api/permission)
         - [配置laravel .env 文件](#配置laravel-env-文件)
         - [配置 auth](#配置-auth)
 - [使用](#usage)
@@ -28,13 +28,13 @@ fast-api-permission 为laravel 框架服务开发工具，基于 fast-api-permis
 composer create-project --prefer-dist laravel/laravel laravel "7.30.0"
 ```
 
-### 安装 fast-api/permission 开发版本
+#### 安装 fast-api/permission
 
 ```sh
 composer require fast-api/permission dev-master
 ```
 
-### 配置laravel env 文件
+#### 配置laravel env 文件
 
 在按照上面建议的完成程序的安装之后，下面请配置数据库
 通过添加以下内容到您的应用程序'.env文件(带有合适的值):
