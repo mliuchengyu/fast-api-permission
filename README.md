@@ -1,4 +1,4 @@
-# Laravel fast-api/permission
+# Laravel And fast-api/permission
 fast-api-permission 为laravel 框架服务开发工具，基于 fast-api-permission 可对前后端API接口RBAC权限进行管理。
 更多功能可以参考下面的文档。
 
@@ -11,10 +11,12 @@ fast-api-permission 为laravel 框架服务开发工具，基于 fast-api-permis
         - [安装 fast-api/permission](#安装-权限扩展包)
         - [配置 laravel .env 文件](#配置-laravel-env-文件)
         - [配置 laravel auth 文件](#配置-laravel-auth-文件)
-- [使用](#usage)
+- [使用](#使用)
 - [控制台命令](#console-commands)
 - [bug、建议、贡献和支持](#bug-建议-贡献和支持)
-- [版权和许可](#copyright-and-license)
+- [文档](#文档)
+- [存储库](#存储库)
+- [版权和许可](#版权和许可)
 
 ## 安装与配置
 
@@ -91,7 +93,12 @@ API_PREFIX=api
     //     'table' => 'users',
     // ],
 ]
+```
 
+## 使用
+
+```sh
+composer require fast-api/permission dev-master
 ```
 
 ## bug 建议 贡献和支持
@@ -101,8 +108,7 @@ API_PREFIX=api
 请参阅[CONTRIBUTING.md](CONTRIBUTING.md)了解如何贡献更改。
 
 
-Documentation
---
+## 文档
 PHP开发技术交流（QQ群 368868750）
 
 [![PHP开发技术交流 (SDK)](http://pub.idqqimg.com/wpa/images/group.png)](https://qm.qq.com/cgi-bin/qm/qr?k=rfRumoZ0fxUN4TdshfjkxiHximnHVSzb&jump_from=webapi)
@@ -110,13 +116,12 @@ PHP开发技术交流（QQ群 368868750）
 > fast-api-permission 是基于laravel 7.x 封装，在做项目开发前，必需先阅读laravel官方文档。
 >* laravel 官方文档：https://learnku.com/docs/laravel/7.x/releases/7444
 
-Repository
---
+## 存储库
 fast-api-permission 为开源项目，允许把它用于任何地方，不受任何约束，欢迎 fork 项目。
 >* GitHub 托管地址：https://github.com/fast-php/fast-api-permission
 >* packagist 托管地址：https://packagist.org/packages/fast-api/permission
 > 
-## Copyright and License
+## 版权和许可
 
 [fast-api/permission](https://github.com/fast-php/fast-api-permission)
 was written by [fast-php](http://www.dnat.link) and is released under the
