@@ -145,8 +145,8 @@ class AdminUserSeeder extends Seeder
                 'remark' => 'system init'
             ],
             [
-                'username' => 'test',
-                'password' => '123123',
+                'username' => 'editor',
+                'password' => 'editor',
                 'avatar'=> 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif?imageView2/1/w/80/h/80',
                 'name' => '测试账号',
                 'mobile' => '18142830406',
@@ -165,7 +165,7 @@ class AdminUserSeeder extends Seeder
             ],
             [
                 'name' => '初始化测试账号',
-                'slug' => 'test',
+                'slug' => 'editor',
                 'description' => 'system init'
             ]
         ];
