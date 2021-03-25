@@ -13,7 +13,7 @@ fast-api-permission 为laravel 框架服务开发工具，基于 fast-api-permis
         - [配置 laravel auth 文件](#配置-laravel-auth-文件)
 - [使用](#usage)
 - [控制台命令](#console-commands)
-- [bug、建议、贡献和支持](#bugs-suggestions-contributions-and-support)
+- [bug、建议、贡献和支持](#bug-建议-贡献和支持)
 - [版权和许可](#copyright-and-license)
 
 ## 安装与配置
@@ -94,7 +94,7 @@ API_PREFIX=api
 
 ```
 
-## bug、建议、贡献和支持
+## bug 建议 贡献和支持
 
 请使用[Github](https://github.com/fast-php/fast-api-permission)报告bug，并提出意见或建议。
 
