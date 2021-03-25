@@ -87,7 +87,7 @@ API_PREFIX=api
 'providers' => [
     'users' => [
         'driver' => 'eloquent',
-        'model' => \Edu\Permission\User::class,
+        'model' => \Fast\Api\Permission\User::class,
     ],
 
     // 'users' => [
@@ -111,6 +111,16 @@ php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServicePro
 ```sh
 php artisan jwt:secret
 ```
+过期时间:
+
+设置 JWT TOKEN 默认过期时间
+
+您可以在.env文件中进行配置。
+
+```ini
+JWT_EXPIRR_IN = 1440
+```
+
 发布配置 [Captcha]
 
 运行以下命令以发布程序包配置文件：

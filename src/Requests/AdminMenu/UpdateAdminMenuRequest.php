@@ -1,10 +1,10 @@
 <?php
 
-namespace Edu\Permission\Requests\AdminMenu;
+namespace Fast\Api\Permission\Requests\AdminMenu;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
-use Edu\Permission\Models\AdminMenu;
+use Fast\Api\Permission\Models\AdminMenu;
 
 class UpdateAdminMenuRequest extends FormRequest
 {

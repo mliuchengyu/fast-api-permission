@@ -1,6 +1,6 @@
 <?php
 
-namespace Edu\Permission\Models;
+namespace Fast\Api\Permission\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

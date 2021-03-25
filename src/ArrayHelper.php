@@ -1,5 +1,5 @@
 <?php
-namespace Edu\Permission;
+namespace Fast\Api\Permission;
 
 use Illuminate\Support\Collection;
 

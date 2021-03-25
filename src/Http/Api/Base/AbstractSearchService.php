@@ -1,5 +1,5 @@
 <?php
-namespace Edu\Permission\Http\Api\Base;
+namespace Fast\Api\Permission\Http\Api\Base;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Prettus\Repository\Criteria\RequestCriteria;

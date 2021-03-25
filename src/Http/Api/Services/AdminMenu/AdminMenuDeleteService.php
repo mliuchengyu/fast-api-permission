@@ -1,9 +1,9 @@
 <?php
 
-namespace Edu\Permission\Http\Api\Services\AdminMenu;
+namespace Fast\Api\Permission\Http\Api\Services\AdminMenu;
 
-use Edu\Permission\Repository\Contract\AdminMenuRepository;
-use Edu\Permission\Requests\AdminMenu\DeleteAdminMenuRequest;
+use Fast\Api\Permission\Repository\Contract\AdminMenuRepository;
+use Fast\Api\Permission\Requests\AdminMenu\DeleteAdminMenuRequest;
 
 class AdminMenuDeleteService
 {

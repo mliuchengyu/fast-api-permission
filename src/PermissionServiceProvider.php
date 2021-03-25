@@ -1,16 +1,16 @@
 <?php
 
-namespace Edu\Permission;
+namespace Fast\Api\Permission;
 
-use Edu\Permission\Http\Api\Middleware\RbacAuthenticate;
-use Edu\Permission\Repository\Contract\AdminMenuRepository;
-use Edu\Permission\Repository\Contract\AdminPermissionRepository;
-use Edu\Permission\Repository\Contract\AdminRoleRepository;
-use Edu\Permission\Repository\Contract\AdminUserRepository;
-use Edu\Permission\Repository\Eloquent\AdminMenuRepositoryEloquent;
-use Edu\Permission\Repository\Eloquent\AdminPermissionRepositoryEloquent;
-use Edu\Permission\Repository\Eloquent\AdminRoleRepositoryEloquent;
-use Edu\Permission\Repository\Eloquent\AdminUserRepositoryEloquent;
+use Fast\Api\Permission\Http\Api\Middleware\RbacAuthenticate;
+use Fast\Api\Permission\Repository\Contract\AdminMenuRepository;
+use Fast\Api\Permission\Repository\Contract\AdminPermissionRepository;
+use Fast\Api\Permission\Repository\Contract\AdminRoleRepository;
+use Fast\Api\Permission\Repository\Contract\AdminUserRepository;
+use Fast\Api\Permission\Repository\Eloquent\AdminMenuRepositoryEloquent;
+use Fast\Api\Permission\Repository\Eloquent\AdminPermissionRepositoryEloquent;
+use Fast\Api\Permission\Repository\Eloquent\AdminRoleRepositoryEloquent;
+use Fast\Api\Permission\Repository\Eloquent\AdminUserRepositoryEloquent;
 use Illuminate\Support\ServiceProvider;
 
 class PermissionServiceProvider extends ServiceProvider

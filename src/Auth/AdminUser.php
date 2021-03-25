@@ -1,6 +1,6 @@
 <?php
 
-namespace Edu\Permission\Auth;
+namespace Fast\Api\Permission\Auth;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Auth\MustVerifyEmail;
@@ -10,7 +10,7 @@ use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
 use Illuminate\Contracts\Auth\CanResetPassword as CanResetPasswordContract;
 use Illuminate\Foundation\Auth\Access\Authorizable;
 
-class AdminUser extends \Edu\Permission\Models\AdminUser implements
+class AdminUser extends \Fast\Api\Permission\Models\AdminUser implements
     AuthenticatableContract,
     AuthorizableContract,
     CanResetPasswordContract

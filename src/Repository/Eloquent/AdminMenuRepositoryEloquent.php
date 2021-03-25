@@ -1,16 +1,16 @@
 <?php
 
-namespace Edu\Permission\Repository\Eloquent;
+namespace Fast\Api\Permission\Repository\Eloquent;
 
 use Prettus\Repository\Eloquent\BaseRepository;
 use Prettus\Repository\Criteria\RequestCriteria;
-use Edu\Permission\Repository\Contract\AdminMenuRepository;
-use Edu\Permission\Models\AdminMenu;
+use Fast\Api\Permission\Repository\Contract\AdminMenuRepository;
+use Fast\Api\Permission\Models\AdminMenu;
 
 /**
  * Class AdminMenuRepositoryEloquent.
  *
- * @package namespace Edu\Permission\Repository\Eloquent
+ * @package namespace Fast\Api\Permission\Repository\Eloquent
  */
 class AdminMenuRepositoryEloquent extends BaseRepository implements AdminMenuRepository
 {

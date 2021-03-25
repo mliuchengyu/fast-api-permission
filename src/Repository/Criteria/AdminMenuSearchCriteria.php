@@ -1,8 +1,8 @@
 <?php
 
-namespace Edu\Permission\Repository\Criteria;
+namespace Fast\Api\Permission\Repository\Criteria;
 
-use Edu\Permission\Http\Api\Base\AbstractCriteria;
+use Fast\Api\Permission\Http\Api\Base\AbstractCriteria;
 
 class AdminMenuSearchCriteria extends AbstractCriteria
 {

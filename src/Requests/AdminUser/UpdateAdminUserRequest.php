@@ -1,6 +1,6 @@
 <?php
 
-namespace Edu\Permission\Requests\AdminUser;
+namespace Fast\Api\Permission\Requests\AdminUser;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
@@ -16,7 +16,7 @@ class UpdateAdminUserRequest extends FormRequest
     {
         $userId = $this->route('user');
         return [
-            'id' => 'exists:Edu\Permission\Models\AdminUser,id',
+            'id' => 'exists:Fast\Api\Permission\Models\AdminUser,id',
             'username' => [
                 'required',
                 Rule::unique('admin_users')->ignore($userId),

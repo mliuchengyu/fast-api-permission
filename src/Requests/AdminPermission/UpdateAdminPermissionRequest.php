@@ -1,8 +1,8 @@
 <?php
 
-namespace Edu\Permission\Requests\AdminPermission;
+namespace Fast\Api\Permission\Requests\AdminPermission;
 
-use Edu\Permission\Models\AdminPermission;
+use Fast\Api\PermissionModels\AdminPermission;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
 
@@ -17,7 +17,7 @@ class UpdateAdminPermissionRequest extends FormRequest
     {
         $permissionId = $this->route('permission');
         return [
-            'id' => 'exists:Edu\Permission\Models\AdminPermission,id',
+            'id' => 'exists:Fast\Api\PermissionModels\AdminPermission,id',
             'name' => [
                 'required',
                 'max:60'

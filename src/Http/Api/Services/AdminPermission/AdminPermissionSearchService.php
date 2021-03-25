@@ -1,11 +1,11 @@
 <?php
 
-namespace Edu\Permission\Http\Api\Services\AdminPermission;
+namespace Fast\Api\Permission\Http\Api\Services\AdminPermission;
 
-use Edu\Permission\Http\Api\Base\AbstractSearchService;
-use Edu\Permission\Repository\Contract\AdminPermissionRepository;
-use Edu\Permission\Repository\Criteria\AdminPermissionSearchCriteria;
-use Edu\Permission\Requests\AdminPermission\SearchAdminPermissionRequest;
+use Fast\Api\Permission\Http\Api\Base\AbstractSearchService;
+use Fast\Api\Permission\Repository\Contract\AdminPermissionRepository;
+use Fast\Api\Permission\Repository\Criteria\AdminPermissionSearchCriteria;
+use Fast\Api\Permission\Requests\AdminPermission\SearchAdminPermissionRequest;
 
 class AdminPermissionSearchService extends AbstractSearchService
 {

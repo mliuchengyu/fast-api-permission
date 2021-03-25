@@ -1,6 +1,6 @@
 <?php
 
-namespace Edu\Permission\Requests\AdminMenu;
+namespace Fast\Api\Requests\AdminMenu;
 
 use Illuminate\Foundation\Http\FormRequest;
 

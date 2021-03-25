@@ -1,8 +1,8 @@
 <?php
-namespace Edu\Permission\Http\Api\Controllers;
+namespace Fast\Api\Permission\Http\Api\Controllers;
 
-use Edu\Permission\Http\Api\Base\Controller;
-use Edu\Permission\Transformers\AdminUserTransformers;
+use Fast\Api\Permission\Http\Api\Base\Controller;
+use Fast\Api\Permission\Transformers\AdminUserTransformers;
 use Illuminate\Http\Request;
 
 class AuthController extends Controller

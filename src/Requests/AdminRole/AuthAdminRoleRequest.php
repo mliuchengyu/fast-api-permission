@@ -1,6 +1,6 @@
 <?php
 
-namespace Edu\Permission\Requests\AdminRole;
+namespace Fast\Api\Permission\Requests\AdminRole;
 
 use Illuminate\Foundation\Http\FormRequest;
 

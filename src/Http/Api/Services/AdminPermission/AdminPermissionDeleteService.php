@@ -1,8 +1,8 @@
 <?php
 
-namespace Edu\Permission\Http\Api\Services\AdminPermission;
+namespace Fast\Api\Permission\Http\Api\Services\AdminPermission;
 
-use Edu\Permission\Repository\Contract\AdminPermissionRepository;
+use Fast\Api\Permission\Repository\Contract\AdminPermissionRepository;
 use Edu\Permission\Requests\AdminPermission\DeleteAdminPermissionRequest;
 
 class AdminPermissionDeleteService

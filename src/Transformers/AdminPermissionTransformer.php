@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Edu\Permission\Transformers;
+namespace Fast\Api\Permission\Transformers;
 
 use League\Fractal\TransformerAbstract;
-use Edu\Permission\ArrayHelper;
+use Fast\Api\Permission\ArrayHelper;
 
 class AdminPermissionTransformer extends TransformerAbstract
 {

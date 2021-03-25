@@ -34,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Edu\\Permission\\": "src"
+            "Fast\\Api\\Permission\\": "src"
         },
         "classmap": [
             "database/seeds"
@@ -45,7 +45,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Edu\\Permission\\PermissionServiceProvider"
+                "Fast\\Api\\Permission\\PermissionServiceProvider"
             ]
         }
     }

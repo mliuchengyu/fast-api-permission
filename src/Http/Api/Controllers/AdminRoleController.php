@@ -1,20 +1,20 @@
 <?php
 
-namespace Edu\Permission\Http\Api\Controllers;
+namespace Fast\Api\Permission\Http\Api\Controllers;
 
-use Edu\Permission\ArrayHelper;
-use Edu\Permission\Http\Api\Base\Controller;
-use Edu\Permission\Http\Api\Services\AdminRole\AdminAuthUpdateService;
-use Edu\Permission\Http\Api\Services\AdminRole\AdminRoleDeleteService;
-use Edu\Permission\Http\Api\Services\AdminRole\AdminRoleSearchService;
-use Edu\Permission\Http\Api\Services\AdminRole\AdminRoleShowService;
-use Edu\Permission\Http\Api\Services\AdminRole\AdminRoleStoreService;
-use Edu\Permission\Http\Api\Services\AdminRole\AdminRoleUpdateService;
-use Edu\Permission\Repository\Contract\AdminRoleRepository;
-use Edu\Permission\Repository\Contract\AdminUserRepository;
-use Edu\Permission\Transformers\AdminRoleTransformer;
-use Edu\Permission\Transformers\AdminRoleUsersTransformer;
-use Edu\Permission\Transformers\AdminUserTransformers;
+use Fast\Api\Permission\ArrayHelper;
+use Fast\Api\Permission\Http\Api\Base\Controller;
+use Fast\Api\Permission\Http\Api\Services\AdminRole\AdminAuthUpdateService;
+use Fast\Api\Permission\Http\Api\Services\AdminRole\AdminRoleDeleteService;
+use Fast\Api\Permission\Http\Api\Services\AdminRole\AdminRoleSearchService;
+use Fast\Api\Permission\Http\Api\Services\AdminRole\AdminRoleShowService;
+use Fast\Api\Permission\Http\Api\Services\AdminRole\AdminRoleStoreService;
+use Fast\Api\Permission\Http\Api\Services\AdminRole\AdminRoleUpdateService;
+use Fast\Api\Permission\Repository\Contract\AdminRoleRepository;
+use Fast\Api\Permission\Repository\Contract\AdminUserRepository;
+use Fast\Api\Permission\Transformers\AdminRoleTransformer;
+use Fast\Api\Permission\Transformers\AdminRoleUsersTransformer;
+use Fast\Api\Permission\Transformers\AdminUserTransformers;
 
 class AdminRoleController extends Controller
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Edu\Permission\Requests\AdminMenu;
+namespace Fast\Api\Permission\Requests\AdminMenu;
 
 use Illuminate\Foundation\Http\FormRequest;
 
@@ -16,7 +16,7 @@ class StoreAdminMenuRequest extends FormRequest
         return [
             'title' => 'required',
             'path' => 'required|unique:admin_menus',
-            'parent_id' => 'exists:Edu\Permission\Models\AdminMenu,id',
+            'parent_id' => 'exists:Fast\Api\Permission\Models\AdminMenu,id',
             'roles' => 'required'
         ];
     }

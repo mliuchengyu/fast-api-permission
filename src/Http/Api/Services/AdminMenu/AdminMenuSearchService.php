@@ -1,11 +1,11 @@
 <?php
 
-namespace Edu\Permission\Http\Api\Services\AdminMenu;
+namespace Fast\Api\Permission\Http\Api\Services\AdminMenu;
 
-use Edu\Permission\Http\Api\Base\AbstractSearchService;
-use Edu\Permission\Repository\Contract\AdminMenuRepository;
-use Edu\Permission\Repository\Criteria\AdminMenuSearchCriteria;
-use Edu\Permission\Requests\AdminMenu\SearchAdminMenuRequest;
+use Fast\Api\Permission\Http\Api\Base\AbstractSearchService;
+use Fast\Api\Permission\Repository\Contract\AdminMenuRepository;
+use Fast\Api\Permission\Repository\Criteria\AdminMenuSearchCriteria;
+use Fast\Api\Permission\Requests\AdminMenu\SearchAdminMenuRequest;
 
 class AdminMenuSearchService extends AbstractSearchService
 {
