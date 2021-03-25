@@ -96,9 +96,25 @@ API_PREFIX=api
 ```
 
 ## 使用
+发布配置 [JWT]
+
+运行以下命令以发布程序包配置文件：
 
 ```sh
-composer require fast-api/permission dev-master
+php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
+```
+生成密钥
+
+我提供了一个帮助程序命令，可以为您生成密钥：
+```sh
+php artisan jwt:secret
+```
+发布配置 [Captcha]
+
+运行以下命令以发布程序包配置文件：
+
+```sh
+php artisan vendor:publish --provider="Mews\Captcha\CaptchaServiceProvider"
 ```
 
 ## bug 建议 贡献和支持
