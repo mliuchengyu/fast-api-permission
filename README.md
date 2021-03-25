@@ -10,7 +10,7 @@ fast-api-permission 为laravel 框架服务开发工具，基于 fast-api-permis
     - [Laravel](#laravel)
         - [安装 fast-api/permission](#安装-fast-api/permission)
         - [配置laravel .env 文件](#配置laravel-env-文件)
-        - [配置 auth](#配置-auth)
+        - [配置 auth](#laravel-config/auth.php-参数)
 - [使用](#usage)
 - [控制台命令](#console-commands)
 - [bug、建议、贡献和支持](#bugs-suggestions-contributions-and-support)
