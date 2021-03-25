@@ -109,7 +109,7 @@ $api->version('v1', function ($api) {
         ]);
         // 角色列表
         $api->get('roles', [
-            'uses' => '\Fast\Api\Http\Api\Controllers\AdminRoleController@index',
+            'uses' => '\Fast\Api\Permission\Http\Api\Controllers\AdminRoleController@index',
             'middleware' => ['rbac.auth:can,role.index']
         ]);
         // 角色信息
