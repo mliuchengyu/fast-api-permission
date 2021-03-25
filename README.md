@@ -1,6 +1,7 @@
-# Laravel And fast-api/permission
+# fast-api/permission
 fast-api-permission 为laravel 框架服务开发工具，基于 fast-api-permission 可对前后端API接口RBAC权限进行管理。
 更多功能可以参考下面的文档。
+fast-api-permission 是一个PHP RABC处理和操作库，它提供了一种更容易表达的方式来创建，编辑和管理权限。该软件包包括用于轻松集成Laravel的ServiceProviders和Facades 。
 
 在Laravel应用程序中使用官方fast-api/permission客户端的简便方法。
 
@@ -12,11 +13,12 @@ fast-api-permission 为laravel 框架服务开发工具，基于 fast-api-permis
         - [配置 laravel .env 文件](#配置-laravel-env-文件)
         - [配置 laravel auth 文件](#配置-laravel-auth-文件)
 - [使用](#使用)
-- [控制台命令](#console-commands)
-- [bug、建议、贡献和支持](#bug-建议-贡献和支持)
+- [启动](#启动)
 - [文档](#文档)
 - [存储库](#存储库)
+- [bug、建议、贡献和支持](#bug-建议-贡献和支持)
 - [版权和许可](#版权和许可)
+
 
 ## 安装与配置
 
@@ -139,6 +141,12 @@ php artisan db:seed --class=AdminUserSeeder
 
 请参阅[CONTRIBUTING.md](CONTRIBUTING.md)了解如何贡献更改。
 
+## 启动
+运行以下命令启动项目：
+
+```sh
+php artisan serve
+```
 
 ## 文档
 PHP开发技术交流（QQ群 368868750）
