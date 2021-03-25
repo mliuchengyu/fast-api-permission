@@ -1,17 +1,29 @@
 {
     "name": "fast-api/permission",
     "description": "common rbac permission",
-    "authors": [
-        {
-            "name": "liuchengyu"
-        }
-    ],
     "keywords": [
         "rbac",
         "laravel",
         "permission"
     ],
+    "homepage": "https://github.com/fast-php/fast-api-permission",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chengyu liu",
+            "email": "liuchnegyu@live.cn"
+        }
+    ],
     "require": {
+        "php": ">=7.2.5",
+        "laravel/framework": ">=7.24",
+        "tymon/jwt-auth": "1.0.0",
+        "prettus/l5-repository": "2.6.x",
+        "dingo/api": "3.0.0",
+        "lcobucci/jwt": "3.3.0",
+        "mews/captcha": "^3.2"
+    },
+    "require-dev": {
         "php": ">=7.2.5",
         "laravel/framework": ">=7.24",
         "tymon/jwt-auth": "1.0.0",
@@ -28,7 +40,7 @@
             "database/seeds"
         ]
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "extra": {
         "laravel": {
