@@ -41,7 +41,7 @@ class AdminUserSeeder extends Seeder
 
             $this->prepareWith($item);
             try {
-                $service = app()->make(\Fast\Api\Http\Api\Services\AdminPermission\AdminPermissionStoreService::class);
+                $service = app()->make(Fast\Api\Permission\Http\Api\Services\AdminPermission\AdminPermissionStoreService::class);
                 $permission = $service->save();
             }catch ( \Illuminate\Validation\ValidationException $exception){
                 dd($exception->errors());
@@ -60,7 +60,7 @@ class AdminUserSeeder extends Seeder
         return array_map(function ($item) use ($permissions) {
             $this->prepareWith($item);
             try {
-                $service = app()->make(\Fast\Api\Http\Api\Services\AdminRole\AdminRoleStoreService::class);
+                $service = app()->make(Fast\Api\Permission\Http\Api\Services\AdminRole\AdminRoleStoreService::class);
                 $role = $service->save();
             }catch ( \Illuminate\Validation\ValidationException $exception){
                 dd($exception->errors());
@@ -77,7 +77,7 @@ class AdminUserSeeder extends Seeder
             $item['rolesIds'] = $roles;
             $this->prepareWith($item);
             try {
-                $service = app()->make(\Fast\Api\Http\Api\Services\AdminUser\AdminUserStoreService::class);
+                $service = app()->make(Fast\Api\Permission\Http\Api\Services\AdminUser\AdminUserStoreService::class);
                 $service->save();
             }catch ( \Illuminate\Validation\ValidationException $exception){
                 dd($exception->errors());
@@ -90,7 +90,7 @@ class AdminUserSeeder extends Seeder
     {
         $item['permissions'] = $this->roles;
         $this->prepareWith($item);
-        $service = app()->make(\Fast\Api\Http\Api\Services\AdminRole\AdminAuthUpdateService::class);
+        $service = app()->make(Fast\Api\Permission\Http\Api\Services\AdminRole\AdminAuthUpdateService::class);
         $service->update($rolesId);
     }
 
@@ -109,7 +109,7 @@ class AdminUserSeeder extends Seeder
                 unset($item['children']);
             }
             $this->prepareWith($item);
-            $service = app()->make(\Fast\Api\Http\Api\Services\AdminMenu\AdminMenuStoreService::class);
+            $service = app()->make(Fast\Api\Permission\Http\Api\Services\AdminMenu\AdminMenuStoreService::class);
             $menu = $service->save();
             if ($children) {
                 $this->createMenus($roles, $menu->id, $children);
