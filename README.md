@@ -117,6 +117,22 @@ php artisan jwt:secret
 php artisan vendor:publish --provider="Mews\Captcha\CaptchaServiceProvider"
 ```
 
+数据迁移 [migrates]
+
+运行以下命令以发布程序包配置文件：
+
+```sh
+php artisan migrate --path=vendor/fast-api/permission/database/migrations
+```
+
+生成数据 [seed]
+
+运行以下命令导入权限数据到数据库：
+
+```sh
+php artisan db:seed --class=AdminUserSeeder
+```
+
 ## bug 建议 贡献和支持
 
 请使用[Github](https://github.com/fast-php/fast-api-permission)报告bug，并提出意见或建议。
