@@ -1,0 +1,39 @@
+{
+    "name": "fast-api/permission",
+    "description": "common rbac permission",
+    "authors": [
+        {
+            "name": "liuchengyu",
+        }
+    ],
+    "keywords": [
+        "rbac",
+        "laravel",
+        "permission"
+    ],
+    "require": {
+        "php": ">=7.2.5",
+        "tymon/jwt-auth": "1.0.0",
+        "prettus/l5-repository": "2.6.x",
+        "dingo/api": "3.0.0",
+        "lcobucci/jwt": "3.3.0",
+        "mews/captcha": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Edu\\Permission\\": "src"
+        },
+        "classmap": [
+            "database/seeds"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Edu\\Permission\\PermissionServiceProvider"
+            ]
+        }
+    }
+}
