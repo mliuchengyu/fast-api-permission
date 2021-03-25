@@ -8,7 +8,7 @@ fast-api-permission 为laravel 框架服务开发工具，基于 fast-api-permis
 
 - [安装与配置](#安装与配置)
     - [安装 Laravel](#安装-Laravel)
-        - [安装 fast-api/permission](#安装-fast-api/permission)
+        - [安装 fast-api/permission](#安装-权限扩展包)
         - [配置 laravel .env 文件](#配置-laravel-env-文件)
         - [配置 laravel auth 文件](#配置-laravel-auth-文件)
 - [使用](#usage)
@@ -28,7 +28,7 @@ fast-api-permission 为laravel 框架服务开发工具，基于 fast-api-permis
 composer create-project --prefer-dist laravel/laravel laravel "7.30.0"
 ```
 
-## 安装 fast-api/permission
+## 安装 权限扩展包
 
 ```sh
 composer require fast-api/permission dev-master
