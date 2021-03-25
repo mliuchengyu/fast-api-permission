@@ -7,10 +7,10 @@ fast-api-permission 为laravel 框架服务开发工具，基于 fast-api-permis
 
 
 - [安装与配置](#安装与配置)
-    - [Laravel](#安装-Laravel)
+    - [安装 Laravel](#安装-Laravel)
         - [安装 fast-api/permission](#安装-fast-api/permission)
-        - [配置laravel .env 文件](#配置-laravel-env-文件)
-        - [配置 auth](#laravel-config/auth.php-参数)
+        - [配置 laravel .env 文件](#配置-laravel-env-文件)
+        - [配置 laravel auth 文件](#配置-laravel-auth-文件)
 - [使用](#usage)
 - [控制台命令](#console-commands)
 - [bug、建议、贡献和支持](#bugs-suggestions-contributions-and-support)
@@ -57,7 +57,7 @@ API前缀:
 API_PREFIX=api
 ```
 
-## laravel config/auth.php 参数
+## 配置 laravel auth 文件
 ```php
 // Authentication Defaults
 'defaults' => [
