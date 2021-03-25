@@ -1,7 +1,7 @@
 # fast-api/permission
-fast-api-permission 为laravel 框架服务开发工具，基于 fast-api-permission 可对前后端API接口RBAC权限进行管理。
+fast-api-permission 是一个PHP RBAC处理和操作库，它提供了一种更容易表达的方式来创建，编辑和管理前后端分离API接口权限。该软件包包括用于轻松集成Laravel的ServiceProviders和Facades 。
+
 更多功能可以参考下面的文档。
-fast-api-permission 是一个PHP RABC处理和操作库，它提供了一种更容易表达的方式来创建，编辑和管理权限。该软件包包括用于轻松集成Laravel的ServiceProviders和Facades 。
 
 在Laravel应用程序中使用官方fast-api/permission客户端的简便方法。
 
