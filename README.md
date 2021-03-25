@@ -34,11 +34,12 @@ composer create-project --prefer-dist laravel/laravel laravel "7.30.0"
 composer require fast-api/permission dev-master
 ```
 
-#### 配置laravel env 文件
+##### 配置laravel env 文件
 
 在按照上面建议的完成程序的安装之后，下面请配置数据库
 通过添加以下内容到您的应用程序'.env文件(带有合适的值):
 
+数据库:
 ```ini
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -47,8 +48,7 @@ DB_DATABASE=fast-api
 DB_USERNAME=root
 DB_PASSWORD=root
 ```
-
-#### API前缀
+API前缀:
 
 如果您曾经使用过API，就会知道大多数服务都是通过子域或前缀提供的。前缀或子域是必需的，但只有一个。避免将版本号作为前缀或子域，因为版本控制是通过Accept标头处理的。
 您可以在.env文件中进行配置。
@@ -57,7 +57,7 @@ DB_PASSWORD=root
 API_PREFIX=api
 ```
 
-#### laravel config/auth.php 参数
+## laravel config/auth.php 参数
 ```php
 // Authentication Defaults
 'defaults' => [
