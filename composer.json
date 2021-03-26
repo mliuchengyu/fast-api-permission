@@ -16,6 +16,7 @@
     ],
     "require": {
         "php": ">=7.2.5",
+        "darkaonline/l5-swagger": "^8.0",
         "laravel/framework": ">=7.24",
         "tymon/jwt-auth": "1.0.0",
         "prettus/l5-repository": "2.6.x",
@@ -25,6 +26,7 @@
     },
     "require-dev": {
         "php": ">=7.2.5",
+        "darkaonline/l5-swagger": "^8.0",
         "laravel/framework": ">=7.24",
         "tymon/jwt-auth": "1.0.0",
         "prettus/l5-repository": "2.6.x",
