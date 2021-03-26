@@ -12,7 +12,7 @@
  *     @OA\Server(
  *         description="本地接口",
  *         url="http://127.0.0.1:8000"
- *     )
+ *     ),
  *     @OA\Server(
  *         description="测试接口",
  *         url="https://fast-api.dnat.link"

@@ -43,6 +43,13 @@ composer require fast-api/permission dev-master
 在按照上面建议的完成程序的安装之后，下面请配置数据库
 通过添加以下内容到您的应用程序'.env文件(带有合适的值):
 
+APP_URL 服务地址和端口:
+项目访问地址，本地开发,参考设置（php artisan serve）终端执行打印信息。
+
+```ini
+APP_URL=http://localhost:8000
+```
+
 数据库:
 ```ini
 DB_CONNECTION=mysql
