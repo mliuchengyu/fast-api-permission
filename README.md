@@ -136,6 +136,43 @@ JWT_EXPIRR_IN = 1440
 php artisan vendor:publish --provider="Mews\Captcha\CaptchaServiceProvider"
 ```
 
+更新config/captcha.php文档配置：
+```php
+'default' => [
+    'length' => 4,
+    'width' => 150,
+    'height' => 47,
+    'quality' => 50,
+    'math' => false,
+    'expire' => 60,
+    'encrypt' => false,
+]
+```
+
+发布配置 [Swagger]
+```sh
+php artisan vendor:publish --provider "L5Swagger\L5SwaggerServiceProvider"
+```
+更新config/l5-swagger.php文档配置：
+
+包含权限扩展包文档路径，vendor/fast-api
+
+```php
+/*
+ * Absolute paths to directory containing the swagger annotations are stored.
+*/
+'annotations' => [
+    base_path('app'),
+    base_path('vendor/fast-api'),
+]
+```
+.env 文件中配置Swagger参数。
+
+```ini
+L5_SWAGGER_GENERATE_ALWAYS=true
+L5_SWAGGER_CONST_HOST=http://127.0.0.1:8000
+```
+
 数据迁移 [migrates]
 
 运行以下命令以发布程序包配置文件：
@@ -164,6 +201,10 @@ php artisan db:seed --class=AdminUserSeeder
 ```sh
 php artisan serve
 ```
+
+API文档访问地址:
+
+http://127.0.0.1:8000/api/documentation
 
 ## 文档
 PHP开发技术交流（QQ群 368868750）
