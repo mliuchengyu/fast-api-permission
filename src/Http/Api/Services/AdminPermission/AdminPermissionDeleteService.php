@@ -3,7 +3,7 @@
 namespace Fast\Api\Permission\Http\Api\Services\AdminPermission;
 
 use Fast\Api\Permission\Repository\Contract\AdminPermissionRepository;
-use Edu\Permission\Requests\AdminPermission\DeleteAdminPermissionRequest;
+use Fast\Api\Permission\Requests\AdminPermission\DeleteAdminPermissionRequest;
 
 class AdminPermissionDeleteService
 {
