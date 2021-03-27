@@ -3,7 +3,7 @@
  * @OA\OpenApi(
  *     @OA\Info(
  *         version="1.0.0",
- *         title="newbee api doc",
+ *         title="fast api doc",
  *         description="or this sample, you can use the api key `special-key` to test the authorization filters.",
  *         @OA\Contact(
  *             email="mliuchengyu@live.cn"
