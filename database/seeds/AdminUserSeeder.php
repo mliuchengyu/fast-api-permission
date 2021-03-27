@@ -354,6 +354,16 @@ class AdminUserSeeder extends Seeder
                     ]
                 ]
             ],
+            [
+                'title' => '权限测试',
+                'path' => '/rbac',
+                'children' => [
+                    [
+                        'title' => '订单管理',
+                        'path' => 'order',
+                    ]
+                ]
+            ]
         ];
     }
 }
