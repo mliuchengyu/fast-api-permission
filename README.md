@@ -224,6 +224,19 @@ PHP开发技术交流（QQ群 368868750）
 API文档：https://fast-api.dnat.link/api/documentation
 
 
+## 完整项目
+
+后台仓库地址： 
+> Github
+> 
+> https://github.com/fast-oopdev/fast-admin.git
+
+API仓库地址：
+> Github
+>
+> https://github.com/fast-oopdev/fast-api.git
+
+
 ## 存储库
 fast-api-permission 为开源项目，允许把它用于任何地方，不受任何约束，欢迎 fork 项目。
 >* GitHub 托管地址：https://github.com/fast-oopdev/fast-api-permission
