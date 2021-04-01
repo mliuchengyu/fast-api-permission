@@ -216,7 +216,7 @@ PHP开发技术交流（QQ群 368868750）
 
 ## 存储库
 fast-api-permission 为开源项目，允许把它用于任何地方，不受任何约束，欢迎 fork 项目。
->* GitHub 托管地址：https://github.com/fast-php/fast-api-permission
+>* GitHub 托管地址：https://github.com/fast-oopdev/fast-api-permission
 >* packagist 托管地址：https://packagist.org/packages/fast-api/permission
 > 
 ## 版权和许可
