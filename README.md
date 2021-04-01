@@ -221,8 +221,8 @@ fast-api-permission 为开源项目，允许把它用于任何地方，不受任
 > 
 ## 版权和许可
 
-[fast-api/permission](https://github.com/fast-php/fast-api-permission)
+[fast-api/permission](https://github.com/fast-oopdev/fast-api-permission)
 was written by [fast-php](http://www.dnat.link) and is released under the
 [MIT License](LICENSE.md).
 
-Copyright (c) 2015 fast-php
+Copyright (c) 2021 fast-php
