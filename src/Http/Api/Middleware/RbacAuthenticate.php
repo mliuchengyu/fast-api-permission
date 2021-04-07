@@ -1,6 +1,6 @@
 <?php
 
-namespace Edu\Permission\Http\Api\Middleware;
+namespace Fast\Api\Permission\Http\Api\Middleware;
 
 use Dingo\Api\Routing\Helpers;
 use Illuminate\Http\Request;

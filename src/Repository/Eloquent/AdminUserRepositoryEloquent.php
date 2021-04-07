@@ -1,16 +1,16 @@
 <?php
 
-namespace Edu\Permission\Repository\Eloquent;
+namespace Fast\Api\Permission\Repository\Eloquent;
 
 use Prettus\Repository\Eloquent\BaseRepository;
 use Prettus\Repository\Criteria\RequestCriteria;
-use Edu\Permission\Repository\Contract\AdminUserRepository;
-use Edu\Permission\Models\AdminUser;
+use Fast\Api\Permission\Repository\Contract\AdminUserRepository;
+use Fast\Api\Permission\Models\AdminUser;
 
 /**
  * Class AdminUserRepositoryEloquent.
  *
- * @package namespace Edu\Permission\Repository\Eloquent
+ * @package namespace Fast\Api\Permission\Repository\Eloquent
  */
 class AdminUserRepositoryEloquent extends BaseRepository implements AdminUserRepository
 {

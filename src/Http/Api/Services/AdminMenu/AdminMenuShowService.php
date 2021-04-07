@@ -1,10 +1,10 @@
 <?php
 
-namespace Edu\Permission\Http\Api\Services\AdminMenu;
+namespace Fast\Api\Permission\Http\Api\Services\AdminMenu;
 
-use Edu\Permission\Repository\Contract\AdminMenuRepository;
-use Edu\Permission\Requests\AdminRole\ShowAdminRoleRequest;
-use Edu\Permission\Requests\AdminMenu\ShowAdminMenuRequest;
+use Fast\Api\Permission\Repository\Contract\AdminMenuRepository;
+use Fast\Api\Permission\Requests\AdminRole\ShowAdminRoleRequest;
+use Fast\Api\Permission\Requests\AdminMenu\ShowAdminMenuRequest;
 
 class AdminMenuShowService
 {

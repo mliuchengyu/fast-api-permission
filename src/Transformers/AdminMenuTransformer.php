@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Edu\Permission\Transformers;
+namespace Fast\Api\Permission\Transformers;
 
-use Edu\Permission\ArrayHelper;
+use Fast\Api\Permission\ArrayHelper;
 use League\Fractal\TransformerAbstract;
 
 

@@ -41,7 +41,7 @@ class AdminUserSeeder extends Seeder
 
             $this->prepareWith($item);
             try {
-                $service = app()->make(\Edu\Permission\Http\Api\Services\AdminPermission\AdminPermissionStoreService::class);
+                $service = app()->make(Fast\Api\Permission\Http\Api\Services\AdminPermission\AdminPermissionStoreService::class);
                 $permission = $service->save();
             }catch ( \Illuminate\Validation\ValidationException $exception){
                 dd($exception->errors());
@@ -60,7 +60,7 @@ class AdminUserSeeder extends Seeder
         return array_map(function ($item) use ($permissions) {
             $this->prepareWith($item);
             try {
-                $service = app()->make(\Edu\Permission\Http\Api\Services\AdminRole\AdminRoleStoreService::class);
+                $service = app()->make(Fast\Api\Permission\Http\Api\Services\AdminRole\AdminRoleStoreService::class);
                 $role = $service->save();
             }catch ( \Illuminate\Validation\ValidationException $exception){
                 dd($exception->errors());
@@ -77,7 +77,7 @@ class AdminUserSeeder extends Seeder
             $item['rolesIds'] = $roles;
             $this->prepareWith($item);
             try {
-                $service = app()->make(\Edu\Permission\Http\Api\Services\AdminUser\AdminUserStoreService::class);
+                $service = app()->make(Fast\Api\Permission\Http\Api\Services\AdminUser\AdminUserStoreService::class);
                 $service->save();
             }catch ( \Illuminate\Validation\ValidationException $exception){
                 dd($exception->errors());
@@ -90,7 +90,7 @@ class AdminUserSeeder extends Seeder
     {
         $item['permissions'] = $this->roles;
         $this->prepareWith($item);
-        $service = app()->make(\Edu\Permission\Http\Api\Services\AdminRole\AdminAuthUpdateService::class);
+        $service = app()->make(Fast\Api\Permission\Http\Api\Services\AdminRole\AdminAuthUpdateService::class);
         $service->update($rolesId);
     }
 
@@ -109,7 +109,7 @@ class AdminUserSeeder extends Seeder
                 unset($item['children']);
             }
             $this->prepareWith($item);
-            $service = app()->make(\Edu\Permission\Http\Api\Services\AdminMenu\AdminMenuStoreService::class);
+            $service = app()->make(Fast\Api\Permission\Http\Api\Services\AdminMenu\AdminMenuStoreService::class);
             $menu = $service->save();
             if ($children) {
                 $this->createMenus($roles, $menu->id, $children);
@@ -145,8 +145,8 @@ class AdminUserSeeder extends Seeder
                 'remark' => 'system init'
             ],
             [
-                'username' => 'test',
-                'password' => '123123',
+                'username' => 'editor',
+                'password' => 'editor',
                 'avatar'=> 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif?imageView2/1/w/80/h/80',
                 'name' => '测试账号',
                 'mobile' => '18142830406',
@@ -165,7 +165,7 @@ class AdminUserSeeder extends Seeder
             ],
             [
                 'name' => '初始化测试账号',
-                'slug' => 'test',
+                'slug' => 'editor',
                 'description' => 'system init'
             ]
         ];
@@ -354,6 +354,16 @@ class AdminUserSeeder extends Seeder
                     ]
                 ]
             ],
+            [
+                'title' => '权限测试',
+                'path' => '/rbac',
+                'children' => [
+                    [
+                        'title' => '订单管理',
+                        'path' => 'order',
+                    ]
+                ]
+            ]
         ];
     }
 }

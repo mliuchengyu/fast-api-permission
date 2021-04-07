@@ -1,9 +1,9 @@
 <?php
 
-namespace Edu\Permission;
+namespace Fast\Api\Permission;
 
-use Edu\Permission\Auth\AdminUser;
-use Edu\Permission\Traits\Rbac;
+use Fast\Api\Permission\Auth\AdminUser;
+use Fast\Api\Permission\Traits\Rbac;
 use Illuminate\Notifications\Notifiable;
 use Tymon\JWTAuth\Contracts\JWTSubject;
 

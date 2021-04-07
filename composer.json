@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": ">=7.2.5",
-        "laravel/framework": ">=7.24",
+        "darkaonline/l5-swagger": "^8.0",
         "tymon/jwt-auth": "1.0.0",
         "prettus/l5-repository": "2.6.x",
         "dingo/api": "3.0.0",
@@ -25,7 +25,7 @@
     },
     "require-dev": {
         "php": ">=7.2.5",
-        "laravel/framework": ">=7.24",
+        "darkaonline/l5-swagger": "^8.0",
         "tymon/jwt-auth": "1.0.0",
         "prettus/l5-repository": "2.6.x",
         "dingo/api": "3.0.0",
@@ -34,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Edu\\Permission\\": "src"
+            "Fast\\Api\\Permission\\": "src"
         },
         "classmap": [
             "database/seeds"
@@ -45,7 +45,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Edu\\Permission\\PermissionServiceProvider"
+                "Fast\\Api\\Permission\\PermissionServiceProvider"
             ]
         }
     }

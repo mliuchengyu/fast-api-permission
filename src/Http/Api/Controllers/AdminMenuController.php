@@ -1,16 +1,16 @@
 <?php
 
-namespace Edu\Permission\Http\Api\Controllers;
+namespace Fast\Api\Permission\Http\Api\Controllers;
 
-use Edu\Permission\ArrayHelper;
-use Edu\Permission\Http\Api\Base\Controller;
-use Edu\Permission\Http\Api\Services\AdminMenu\AdminMenuDeleteService;
-use Edu\Permission\Http\Api\Services\AdminMenu\AdminMenuSearchService;
-use Edu\Permission\Http\Api\Services\AdminMenu\AdminMenuShowService;
-use Edu\Permission\Http\Api\Services\AdminMenu\AdminMenuStoreService;
-use Edu\Permission\Http\Api\Services\AdminMenu\AdminMenuUpdateService;
-use Edu\Permission\Transformers\AdminMenuTransformer;
-use Edu\Permission\Repository\Contract\AdminMenuRepository;
+use Fast\Api\Permission\ArrayHelper;
+use Fast\Api\Permission\Http\Api\Base\Controller;
+use Fast\Api\Permission\Http\Api\Services\AdminMenu\AdminMenuDeleteService;
+use Fast\Api\Permission\Http\Api\Services\AdminMenu\AdminMenuSearchService;
+use Fast\Api\Permission\Http\Api\Services\AdminMenu\AdminMenuShowService;
+use Fast\Api\Permission\Http\Api\Services\AdminMenu\AdminMenuStoreService;
+use Fast\Api\Permission\Http\Api\Services\AdminMenu\AdminMenuUpdateService;
+use Fast\Api\Permission\Transformers\AdminMenuTransformer;
+use Fast\Api\Permission\Repository\Contract\AdminMenuRepository;
 
 class AdminMenuController extends Controller
 {

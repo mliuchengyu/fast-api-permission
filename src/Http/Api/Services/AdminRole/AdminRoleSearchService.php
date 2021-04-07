@@ -1,11 +1,11 @@
 <?php
 
-namespace Edu\Permission\Http\Api\Services\AdminRole;
+namespace Fast\Api\Permission\Http\Api\Services\AdminRole;
 
-use Edu\Permission\Http\Api\Base\AbstractSearchService;
-use Edu\Permission\Repository\Contract\AdminRoleRepository;
-use Edu\Permission\Repository\Criteria\AdminRoleSearchCriteria;
-use Edu\Permission\Requests\AdminRole\SearchAdminRoleRequest;
+use Fast\Api\Permission\Http\Api\Base\AbstractSearchService;
+use Fast\Api\Permission\Repository\Contract\AdminRoleRepository;
+use Fast\Api\Permission\Repository\Criteria\AdminRoleSearchCriteria;
+use Fast\Api\Permission\Requests\AdminRole\SearchAdminRoleRequest;
 
 class AdminRoleSearchService extends AbstractSearchService
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Edu\Permission\Http\Api\Services\AdminRole;
+namespace Fast\Api\Permission\Http\Api\Services\AdminRole;
 
-use Edu\Permission\Repository\Contract\AdminRoleRepository;
-use Edu\Permission\Requests\AdminRole\ShowAdminRoleRequest;
+use Fast\Api\Permission\Repository\Contract\AdminRoleRepository;
+use Fast\Api\Permission\Requests\AdminRole\ShowAdminRoleRequest;
 
 class AdminRoleShowService
 {

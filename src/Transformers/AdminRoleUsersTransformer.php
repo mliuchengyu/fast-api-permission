@@ -1,8 +1,8 @@
 <?php
 
-namespace Edu\Permission\Transformers;
+namespace Fast\Api\Permission\Transformers;
 
-use Edu\Permission\Models\AdminRole;
+use Fast\Api\Permission\Models\AdminRole;
 use League\Fractal\TransformerAbstract;
 
 class AdminRoleUsersTransformer extends TransformerAbstract

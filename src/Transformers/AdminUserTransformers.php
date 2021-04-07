@@ -1,7 +1,7 @@
 <?php
-namespace Edu\Permission\Transformers;
-use Edu\Permission\ArrayHelper;
-use Edu\Permission\Models\AdminUser;
+namespace Fast\Api\Permission\Transformers;
+use Fast\Api\Permission\ArrayHelper;
+use Fast\Api\Permission\Models\AdminUser;
 use League\Fractal\TransformerAbstract;
 
 class AdminUserTransformers extends TransformerAbstract
@@ -14,8 +14,6 @@ class AdminUserTransformers extends TransformerAbstract
            'remark'=> $item->remark,
            'name'=> $item->name,
            'avatar'=> $item->avatar,
-           'company_code'=> $item->company_code,
-           'staff_code'=> $item->staff_code,
            'roles'=> ArrayHelper::getColumnAsArray($item->roles()->get(), 'slug'),
            'rolesIds'=> ArrayHelper::getColumnAsArray($item->roles()->get(), 'id')
        ];

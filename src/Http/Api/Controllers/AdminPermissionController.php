@@ -1,16 +1,16 @@
 <?php
 
-namespace Edu\Permission\Http\Api\Controllers;
+namespace Fast\Api\Permission\Http\Api\Controllers;
 
-use Edu\Permission\ArrayHelper;
-use Edu\Permission\Http\Api\Base\Controller;
-use Edu\Permission\Http\Api\Services\AdminPermission\AdminPermissionDeleteService;
-use Edu\Permission\Http\Api\Services\AdminPermission\AdminPermissionSearchService;
-use Edu\Permission\Http\Api\Services\AdminPermission\AdminPermissionShowService;
-use Edu\Permission\Http\Api\Services\AdminPermission\AdminPermissionStoreService;
-use Edu\Permission\Http\Api\Services\AdminPermission\AdminPermissionUpdateService;
-use Edu\Permission\Repository\Contract\AdminPermissionRepository;
-use Edu\Permission\Transformers\AdminPermissionTransformer;
+use Fast\Api\Permission\ArrayHelper;
+use Fast\Api\Permission\Http\Api\Base\Controller;
+use Fast\Api\Permission\Http\Api\Services\AdminPermission\AdminPermissionDeleteService;
+use Fast\Api\Permission\Http\Api\Services\AdminPermission\AdminPermissionSearchService;
+use Fast\Api\Permission\Http\Api\Services\AdminPermission\AdminPermissionShowService;
+use Fast\Api\Permission\Http\Api\Services\AdminPermission\AdminPermissionStoreService;
+use Fast\Api\Permission\Http\Api\Services\AdminPermission\AdminPermissionUpdateService;
+use Fast\Api\Permission\Repository\Contract\AdminPermissionRepository;
+use Fast\Api\Permission\Transformers\AdminPermissionTransformer;
 
 class AdminPermissionController extends Controller
 {

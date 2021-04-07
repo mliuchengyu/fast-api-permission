@@ -1,8 +1,8 @@
 <?php
 
-namespace Edu\Permission\Models;
+namespace Fast\Api\Permission\Models;
 
-use Edu\Permission\ArrayHelper;
+use Fast\Api\Permission\ArrayHelper;
 use Illuminate\Database\Eloquent\Model;
 
 /**

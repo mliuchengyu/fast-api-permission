@@ -1,10 +1,10 @@
 <?php
 
-namespace Edu\Permission\Http\Api\Services\AdminRole;
+namespace Fast\Api\Permission\Http\Api\Services\AdminRole;
 
-use Edu\Permission\Repository\Contract\AdminRoleRepository;
-use Edu\Permission\Repository\Contract\AdminUserRepository;
-use Edu\Permission\Requests\AdminRole\UpdateAdminRoleRequest;
+use Fast\Api\Permission\Repository\Contract\AdminRoleRepository;
+use Fast\Api\Permission\Repository\Contract\AdminUserRepository;
+use Fast\Api\Permission\Requests\AdminRole\UpdateAdminRoleRequest;
 
 class AdminRoleUpdateService
 {

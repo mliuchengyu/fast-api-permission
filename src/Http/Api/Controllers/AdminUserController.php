@@ -1,14 +1,14 @@
 <?php
 
-namespace Edu\Permission\Http\Api\Controllers;
+namespace Fast\Api\Permission\Http\Api\Controllers;
 
-use Edu\Permission\Http\Api\Base\Controller;
-use Edu\Permission\Http\Api\Services\AdminUser\AdminUserDeleteService;
-use Edu\Permission\Http\Api\Services\AdminUser\AdminUserSearchService;
-use Edu\Permission\Http\Api\Services\AdminUser\AdminUserShowService;
-use Edu\Permission\Http\Api\Services\AdminUser\AdminUserStoreService;
-use Edu\Permission\Http\Api\Services\AdminUser\AdminUserUpdateService;
-use Edu\Permission\Transformers\AdminUserTransformers;
+use Fast\Api\Permission\Http\Api\Base\Controller;
+use Fast\Api\Permission\Http\Api\Services\AdminUser\AdminUserDeleteService;
+use Fast\Api\Permission\Http\Api\Services\AdminUser\AdminUserSearchService;
+use Fast\Api\Permission\Http\Api\Services\AdminUser\AdminUserShowService;
+use Fast\Api\Permission\Http\Api\Services\AdminUser\AdminUserStoreService;
+use Fast\Api\Permission\Http\Api\Services\AdminUser\AdminUserUpdateService;
+use Fast\Api\Permission\Transformers\AdminUserTransformers;
 
 class AdminUserController extends Controller
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Edu\Permission\Requests\AdminUser;
+namespace Fast\Api\Permission\Requests\AdminUser;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
@@ -16,19 +16,13 @@ class UpdateAdminUserRequest extends FormRequest
     {
         $userId = $this->route('user');
         return [
-            'id' => 'exists:Edu\Permission\Models\AdminUser,id',
+            'id' => 'exists:Fast\Api\Permission\Models\AdminUser,id',
             'username' => [
                 'required',
                 Rule::unique('admin_users')->ignore($userId),
                 'max:30'
             ],
             'name' => 'required',
-            'company_code' => 'required',
-            'staff_code' => [
-                'required',
-                Rule::unique('admin_users')->ignore($userId),
-                'max:4'
-            ],
             'password' => 'filled|min:6',
             'rolesIds' => 'required',
         ];
@@ -44,10 +38,6 @@ class UpdateAdminUserRequest extends FormRequest
         return [
             'username.required'  => '用户名不能为空！',
             'name.required' => '中文名称不能为空！',
-            'company_code.required' => '公司代码不能为空！',
-            'staff_code.required' => '员工代码不能为空！',
-            'staff_code.unique' => '员工代码不能重复！',
-            'staff_code.max' => '员工代码限制4个字符长度！',
             'rolesIds.required' => '拥有角色不能为空！',
         ];
     }

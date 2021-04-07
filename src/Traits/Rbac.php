@@ -1,5 +1,5 @@
 <?php
-namespace Edu\Permission\Traits;
+namespace Fast\Api\Permission\Traits;
 trait Rbac
 {
     public function hacRole($role)

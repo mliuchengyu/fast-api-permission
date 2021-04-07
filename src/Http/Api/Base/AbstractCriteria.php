@@ -1,5 +1,5 @@
 <?php
-namespace Edu\Permission\Http\Api\Base;
+namespace Fast\Api\Permission\Http\Api\Base;
 
 use Prettus\Repository\Contracts\CriteriaInterface;
 use Prettus\Repository\Contracts\RepositoryInterface;

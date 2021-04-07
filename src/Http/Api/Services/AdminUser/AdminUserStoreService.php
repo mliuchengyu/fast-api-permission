@@ -1,7 +1,7 @@
 <?php
-namespace Edu\Permission\Http\Api\Services\AdminUser;
-use Edu\Permission\Repository\Contract\AdminUserRepository;
-use Edu\Permission\Requests\AdminUser\StoreAdminUserRequest;
+namespace Fast\Api\Permission\Http\Api\Services\AdminUser;
+use Fast\Api\Permission\Repository\Contract\AdminUserRepository;
+use Fast\Api\Permission\Requests\AdminUser\StoreAdminUserRequest;
 
 class AdminUserStoreService
 {
