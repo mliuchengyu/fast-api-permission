@@ -1,6 +1,6 @@
 {
     "name": "fast-api/permission",
-    "description": "common rbac permission",
+    "description": "laravel rbac permission",
     "keywords": [
         "rbac",
         "laravel",
@@ -40,7 +40,7 @@
             "database/seeds"
         ]
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "extra": {
         "laravel": {
