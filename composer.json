@@ -16,11 +16,12 @@
     ],
     "require": {
         "php": ">=7.2.5",
+        "laravel/framework": "^8.12",
         "darkaonline/l5-swagger": "^8.0",
-        "tymon/jwt-auth": "1.0.0",
-        "prettus/l5-repository": "2.6.x",
-        "dingo/api": "3.0.0",
-        "lcobucci/jwt": "3.3.0",
+        "tymon/jwt-auth": "1.0.2",
+        "prettus/l5-repository": "2.7.5",
+        "dingo/api": "3.0.5",
+        "lcobucci/jwt": "3.3.3",
         "mews/captcha": "^3.2"
     },
     "require-dev": {
